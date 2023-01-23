@@ -1,4 +1,4 @@
-const form = document.querySelector('form');
+const form = document.querySelector('.search-form');
 const input = document.querySelector('input');
 
 form.addEventListener('submit', async event => {
