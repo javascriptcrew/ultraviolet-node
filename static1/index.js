@@ -1,4 +1,4 @@
-const form = document.querySelector('.search-form');
+const form = document.querySelector('.option');
 const input = document.querySelector('.no-outline');
 
 form.addEventListener('submit', async event => {
