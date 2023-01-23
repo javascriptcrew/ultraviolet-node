@@ -6,14 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Access to this site is blocked</title>
     <link rel="stylesheet" href="https://www.mailcontrol.com/css/hybrid_block.css" type="text/css">
+    
+    <style>
+        input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: #eee;
+}
+
+.no-outline:focus {
+  outline: none;
+}
+    </style>
 </head>
 
 
 <body style="margin-left: 0px">
 
-    <form>
-        <input placeholder="Find it!">
-    </form>
  <div style="border: 1px solid #285EA6;width: 95%; max-width: 700px; overflow: hidden; margin-left: 1px; background-color: #EEF2F7;">
     <div style="cursor: pointer"
         onclick="window.open('https://www.youtube.com/', 'Websense', 'toolbar=no,width=700,height=500');"
@@ -39,7 +50,7 @@
     <form class="option" name="BackForm" action="">
     <p>Click <b>Go Back</b> or use the browser's Back button
     to return to the previous page.
-    <input type="button" value="       Go Back       " onClick="parent.history.back()" name="ws-back"> <input placeholder="Find it!"></p>
+    <input type="button" value="       Go Back       " onClick="parent.history.back()" name="ws-back"> <input class="no-outline"></p>
     </form>
     <div style="clear: both; overflow: hidden; height: 1px;"></div>
     </div>
